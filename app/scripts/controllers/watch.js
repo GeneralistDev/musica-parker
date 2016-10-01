@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name musicaParkerApp.controller:MainCtrl
+ * @name musicaParkerApp.controller:WatchCtrl
  * @description
- * # MainCtrl
+ * # WatchCtrl
  * Controller of the musicaParkerApp
  */
 angular.module('musicaParkerApp')
-  .controller('MainCtrl', function () {
+  .controller('WatchCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

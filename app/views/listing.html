@@ -1,0 +1,6 @@
+<p>Audio Files</p>
+<ul>
+  <li ng-repeat="audioFile in listing.audioFiles">
+    <a target="_blank" ng-href="{{listing.audioUrl + audioFile}}">{{audioFile.name || listing.audioUrl + audioFile}}</a>
+  </li>
+</ul>

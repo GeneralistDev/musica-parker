@@ -8,4 +8,4 @@
  * Constant in the musicaParkerApp.
  */
 angular.module('musicaParkerApp')
-  .constant('s3url', 'http://musica-parker.s3-website-ap-southeast-2.amazonaws.com');
+  .constant('s3url', 'https://d1liu9acff8n0a.cloudfront.net');
